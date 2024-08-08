@@ -2,7 +2,6 @@ package com.example.happyschool.data
 
 sealed class UserDataUiEvents {
     //Login Data
-
     data class UserNameEntered(val name: String) : UserDataUiEvents()
     data class PasswordEntered(val password: String) : UserDataUiEvents()
     //Sign Up Data
